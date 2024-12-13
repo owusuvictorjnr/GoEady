@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Text } from "react-native";
+import React from "react";
+import Wrapper from "@/components/Wrapper";
 
 const Services = () => {
   return (
-    <View>
+    <Wrapper>
       <Text>Services</Text>
-    </View>
-  )
-}
+    </Wrapper>
+  );
+};
 
-export default Services
+export default Services;
