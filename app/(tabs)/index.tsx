@@ -1,13 +1,21 @@
-import { StyleSheet, View, Text, SafeAreaView } from "react-native";
+import SearchBar from "@/components/SearchBar";
+import Wrapper from "@/components/Wrapper";
+import { Image } from "react-native";
 import tw from "twrnc";
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView>
-      <View style={tw`bg-red-400 mt-10`}>
-        <Text>hello</Text>
-      </View>
-    </SafeAreaView>
+    <Wrapper className="">
+      <Image
+        source={require("@/assets/images/android-chrome-192x192.png")}
+        style={tw`w-24 h-10 `}
+        resizeMode="cover"
+      />
+
+      {/* search bar */}
+      <SearchBar />
+      {/* NavOptions */}
+      {/* suggestions */}
+    </Wrapper>
   );
 }
-
