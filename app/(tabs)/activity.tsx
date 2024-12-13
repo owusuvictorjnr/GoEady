@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Text } from "react-native";
+import React from "react";
+import Wrapper from "@/components/Wrapper";
 
 const Activity = () => {
   return (
-    <View>
+    <Wrapper>
       <Text>Activity</Text>
-    </View>
-  )
-}
+    </Wrapper>
+  );
+};
 
-export default Activity
+export default Activity;

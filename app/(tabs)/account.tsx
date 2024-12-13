@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Text } from "react-native";
+import React from "react";
+import Wrapper from "@/components/Wrapper";
 
 const Account = () => {
   return (
-    <View>
+    <Wrapper>
       <Text>Account</Text>
-    </View>
-  )
-}
+    </Wrapper>
+  );
+};
 
-export default Account
+export default Account;
